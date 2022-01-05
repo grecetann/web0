@@ -1,0 +1,467 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    position: absolute;
+    right: 100px;
+    width: 100px;
+}
+
+.text1 {
+    position: absolute;
+    text-align: right;
+    vertical-align: top;
+    right: 100px;
+    text-align: start;
+}
+
+.text2 {
+    position: absolute;
+    text-align: right;
+    right: 100px;
+    color: red;
+}
+
+.text3 {
+    position: absolute;
+    text-align: right;
+    right: 100px;
+}
+
+.paragraph1 {
+    position: absolute;
+    text-align: right;
+    right: 100px;
+    font-weight: bold;
+    width: 320px;
+    break-after: always;
+    color: gray;
+}
+
+.text4 {
+    position: absolute;
+    text-align: right;
+    right: 100px;
+}
+
+.button {
+    position: absolute;
+    text-align: right;
+    right: 100px;
+    background-color: #f4b200;
+    border-color: #f4b200;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img2 {
+    position: absolute;
+    left: 700px;
+    width: 500px;
+    height: 700px;
+    z-index: 2;
+    top: 0px;
+    float: left;
+}
+
+.container .bg-image {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    z-index: 1;
+    opacity: 1;
+    margin-left: 0px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 20px;
+    background-position: top center;
+}
+
+.container .bg-image2 {
+    position: absolute!important;
+    z-index: -1!important;
+    top: 0%;
+    left: 0%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.img4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%
+}
+
+.stories {
+    padding: 20px 0px 20px 0px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.stories .title-header {
+    text-align: center;
+}
+
+.stories .title-header p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2px !important;
+}
+
+.stories .title-header h2 {
+    font-size: 1.625rem;
+}
+
+.stories-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: end;
+}
+
+.stories-card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.stories-card small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.stories-card p {
+    line-height: 1.3rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.small-rating i {
+    color: #ffc107!important;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #f4b200;
+    border-color: #f4b200;
+    color: #fff;
+    text-align: center;
+    border-radius: 6.25rem;
+    border-width: 0.125rem;
+    font-weight: 600;
+    font-size: .9375rem;
+    padding: 0.5rem 1.25rem;
+    position: relative;
+    outline: none!important;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    margin: 20px 0px 0px 600px;
+}
+
+.process {
+    margin-top: 100px;
+}
+
+.header-process {
+    text-align: center;
+}
+
+.header-process p {
+    text-align: center!important;
+    margin-bottom: 3.125rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2px !important;
+}
+
+.header-process h2 {
+    margin-bottom: 3.125rem;
+    text-align: center!important;
+}
+
+.item {
+    text-align: center;
+}
+
+.item-body h4 {
+    font-size: 1.125rem;
+    margin-bottom: 1.875rem;
+    font-family: nunito sans, sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.english.training {
+    margin-top: 100px;
+}
+
+.header-training {
+    text-align: center;
+}
+
+.card-training {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body h4 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    text-align: right;
+}
+
+.card-body p {
+    text-align: right;
+}
+
+.card-teachers img {
+    width: 300px;
+    padding-right: 50px;
+}
+
+.title-header {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.title-header p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2px !important;
+}
+
+.title-header h2 {
+    font-size: 1.625rem;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgb(0 0 0 / 15%);
+}
+
+.list-group p {
+    display: flex;
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 100%;
+    color: #495057;
+    text-align: inherit;
+    line-height: 1.6875rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin: 0px;
+    bottom: 0px;
+    top: 0px;
+    font-weight: 400;
+    font-family: Font Awesome\ 5 Free;
+}
+
+.card-academies img {
+    text-align: center!important;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    width: 100px;
+    height: 50px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact .title h4 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2px !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.5rem;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 30px;
+    color: white;
+}
+
+.contact .title h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 2.5rem;
+    font-weight: 700!important;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+.contact .title2 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff!important;
+    text-align: center!important;
+    padding: 0!important;
+}
+
+.col-12 .group .btn {
+    background-color: #f4b200;
+    border-color: #f4b200;
+    color: #fff;
+    text-align: center;
+    border-radius: 6.25rem;
+    border-width: 0.125rem;
+    font-weight: 600;
+    font-size: .9375rem;
+    position: relative;
+    font-size: 1.125rem;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 150px;
+}
+
+
+/* .contact .counter .lead {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact .counter .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff!important;
+    align-items: center!important;
+    -webkit-box-align: center!important;
+    font-weight: 100!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .counter .m {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    display: flex!important;
+    color: #fff!important;
+    font-weight: 700!important;
+} */
+
+.formcontact .group {
+    margin-bottom: 1.5625rem;
+}
+
+.formcontact .group .form-control {
+    border: 0;
+    box-shadow: 0 0 0 0.125rem rgb(0 0 0 / 20%);
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    height: 45px;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s;
+    text-align: end;
+}
+
+.countdownContainer {
+    text-align: center;
+    padding: 10px;
+}
+
+.bg-container {
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.countdown h3 {
+    padding: 10px;
+    float: left;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+    color: white;
+}
